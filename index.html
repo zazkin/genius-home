@@ -5,35 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beauty zone</title>
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
     <header>
         <nav>
             <a href="./index.html">
-                <img src="" alt="Логотип клініки">
+                <img src="./images/logo.svg" alt="Логотип клініки">
             </a>
             <ul>
-                <li><a href="#about-us">Про нас</a></li>
-                <li><a href="#why-us">Чому ми</a></li>
-                <li><a href="#procedures">Наші процедури</a></li>
-                <li><a href="#contacts">Контакти</a></li>
+                <li><a class="nav-link" href="#about-us">Про нас</a></li>
+                <li><a class="nav-link" href="#why-us">Чому ми</a></li>
+                <li><a class="nav-link" href="#procedures">Наші процедури</a></li>
+                <li><a class="nav-link" href="#contacts">Контакти</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h1>Косметологічна клініка</h1>
-            <h2>Beauty Zone</h2>
-            <button type="button">Замовити дзвінок</button>
-            <h3>Запишись та отримай безкоштовну
+            <h1 class="hero">Косметологічна клініка</h1>
+            <h2 class="hero-title">Beauty <p>Zone</p> </h2>
+            <button class="button" type="button">Замовити дзвінок</button>
+            <h3 class="hero-subtitle">Запишись та отримай безкоштовну
                 консультацію нашого косметолога</h3>
         </section>
         <section id="about-us">
-            <h2>Перевтілюйтесь в beauty zone!</h2>
-            <h3>Наша косметологічна клініка пропонує вам професійні послуги
+            <h2 class="section-title">Перевтілюйтесь в <span class="highlight">Beauty Zone</span>!</h2>
+            <h3 class="section-text">Наша косметологічна клініка пропонує вам професійні послуги
                 з догляду за шкірою обличчя та тіла.</h3>
-            <h4>B beauty zone ми гарантуємо найвищі стандарти якості
+            <h4 class="section-text">B <span class="section-hilight">Beauty Zone</span> ми гарантуємо найвищі стандарти якості
                 та приємний сервіс. Наші косметологічні процедури та препарати допоможуть вам підтримувати свою красу та
                 молодість.
                 З нами краса назавжди!</h4>
@@ -41,38 +42,38 @@
             <img src="#" alt="Фото після">
         </section>
         <section id="why-us">
-            <h2>Чому люди обирають нас</h2>
+            <h2 class="section-title">Чому люди <span class="highlight">обирають нас</span></h2>
             <ul>
-                <li>Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5 років</li>
-                <li>Використовуємо тільки професійне обладнання та косметику, перевірену часом</li>
-                <li>Наша мета - підкреслити переваги та приховати недоліки, а не переробити</li>
+                <li class="why-us-list">Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5 років</li>
+                <li class="why-us-list">Використовуємо тільки професійне обладнання та косметику, перевірену часом</li>
+                <li class="why-us-list">Наша мета - підкреслити переваги та приховати недоліки, а не переробити</li>
             </ul>
         </section>
         <section id="procedures">
-            <h2>Наші процедури</h2>
+            <h2 class="section-title">Наші <span class="highlight">процедури</span></h2>
             <ul>
                 <li>
                     <article>
                         <img src="#" alt="Маски для обличчя">
-                        <h3>Маски для обличчя</h3>
+                        <h3 class="procedures-list">Маски для обличчя</h3>
                     </article>
                 </li>
                 <li>
                     <article>
                         <img src="#" alt="Ін'єкції для обличчя">
-                        <h3>Ін'єкції для обличчя</h3>
+                        <h3 class="procedures-list">Ін'єкції для обличчя</h3>
                     </article>
                 </li>
                 <li>
                     <article>
                         <img src="#" alt="Очищення обличчя">
-                        <h3>Очищення обличчя</h3>
+                        <h3 class="procedures-list">Очищення обличчя</h3>
                     </article>
                 </li>
             </ul>
         </section>
         <section>
-            <h2>Як нас знайти</h2>
+            <h2 class="section-title">Як нас <span class="highlight">знайти</span></h2>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5080.327257819747!2d30.4912733!3d50.4566776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1783348989928!5m2!1sru!2sua"
                 width="605" height="595" allowfullscreen="" loading="lazy"
@@ -80,6 +81,37 @@
             </iframe>
         </section>
     </main>
+    <footer>
+        <nav>
+            <a href="">
+                <img src="./images/logo.svg" alt="Логотип клініки">
+            </a>
+            <ul>
+                <li><a href="#about-us">Про нас</a></li>
+                <li><a href="#why-us">Чому ми</a></li>
+                <li><a href="#procedures">Наші процедури</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+            <address>
+                <ul>
+                <li><a class="adress-link" href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
+                <li><a class="adress-link" href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a></li>
+                <li><a class="adress-link" href="https://maps.app.goo.gl/2xTD7pdjPXfNwLQn8" target="_blank">
+                        Україна, м. Київ,вул. Січових Стрільців 54</a></li>
+                <li><a href="">
+                        <!--social media icons-->
+                    </a></li>
+                <li><a href="">
+                        <!--social media icons-->
+                    </a></li>
+                <a class="adress-link" href="" target="_blank">
+                    Політика конфіденційності
+                </a>
+                <p class="adress-copyright">© 2022 Дані захищені</p>
+                </ul>
+            </address>
+        </nav>
+        </footer>
 </body>
 
 </html>
