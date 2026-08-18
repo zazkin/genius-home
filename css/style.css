@@ -25,6 +25,8 @@ address {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -109,6 +111,8 @@ ul {
 .section-title {
     font-size: 64px;
     font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .section-title .highlight {
@@ -118,10 +122,24 @@ ul {
 .section-text {
     font-size: 22px;
     font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.section-text:last-child {
+    margin-bottom: 0;
 }
 
 .section-text .section-hilight {
     font-weight: 600;
+}
+
+.about-us-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-content{
+    max-width: 700px;
 }
 
 /* why us section */
