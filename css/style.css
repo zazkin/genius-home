@@ -1,9 +1,17 @@
+/* Base styles */
 :root {
     --color-brand-light: #2B7FFF;
     --color-brand-dark: #011C44;
 }
 
-/* Base styles */
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,p,ul {
+    margin: 0;
+    padding: 0;
+}
 
 body {
 color: var(--color-brand-dark);
@@ -19,11 +27,17 @@ ul {
     list-style-type: none;
 }
 
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* Button styles */
 
 .button {
-width: 219;
-    height: 53;
+    width: 219px;
+    height: 53px;
     opacity: 1;
     gap: 10px;
     border-radius: 32px;
@@ -50,21 +64,44 @@ width: 219;
     color: var(--color-brand-light);
 }
 
+/* Header section */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu{
+    display: flex;
+    gap: 56px;
+}
+.header-icons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
 /* Hero section */
+.hero-container {
+    max-width: 500px;
+}
 
 .hero {
-font-size: 18px;
+    margin-bottom: 16px;
+    font-size: 18px;
 }
 
 .hero-title {
     color: var(--color-brand-light);
     font-size: 140px;
     font-weight: 700;
+    margin-bottom: 14px;
+    line-height: 1;
 }
 
 .hero-subtitle {
     font-size: 12px;
     font-weight: 400;
+    max-width: 250px;
 }
 
 /* about us section */
