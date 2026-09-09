@@ -75,8 +75,19 @@
 
                         </h4>
                     </div>
-                    <img src="./Images/before.png" alt="Фото до">
-                    <img src="./Images/after.png" alt="Фото після">
+                    <div class="about-us-images">
+                    <img class="about-us-image image-before" src="./Images/before.png" alt="Фото до">
+                    <img class="about-us-image image-after" src="./Images/after.png" alt="Фото після">
+                    <svg class="star-icon star-blue" width="40" height="40">
+                        <use href="./Images/icons.svg#star-blue"></use>
+                    </svg>
+                    <svg class="star-icon star-big" width="64" height="64">
+                        <use href="./Images/icons.svg#star-big"></use>
+                    </svg>
+                    <svg class="star-icon star-small" width="16" height="16">
+                        <use href="./Images/icons.svg#star-small"></use>
+                    </svg>
+                    </div>
                 </div>
             </div>
         </section>
@@ -114,7 +125,8 @@
         <section id="procedures">
             <div class="container">
                 <h2 class="section-title">Наші <span class="highlight">процедури</span></h2>
-                <button class="carusel-button" type="button">
+                <div class="procedures-slider">
+                <button class="carusel-button prev" type="button">
                     <svg class="carusel-arrow" width="16" height="16">
                         <use href="./Images/icons.svg#icon-arrow"></use>
                     </svg>
@@ -136,10 +148,12 @@
                         </article>
                     </li>
                 </ul>
-                <button class="carusel-button" type="button">
+                <button class="carusel-button next" type="button">
                     <svg class="carusel-arrow" width="16" height="16">
                         <use href="./Images/icons.svg#icon-arrow"></use>
                     </svg> 
+                </button>
+                </div>
             </div>
         </section>
         <section>
