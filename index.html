@@ -44,12 +44,14 @@
     <main>
         <section class="hero-section">
             <div class="container">
-                <div class="hero-container">
-                    <h1 class="hero">Косметологічна клініка</h1>
-                    <h2 class="hero-title">Beauty <br>Zone</h2>
-                    <button class="button" type="button">Замовити дзвінок</button>
-                    <h3 class="hero-subtitle">Запишись та отримай безкоштовну
-                        консультацію нашого косметолога</h3>
+                <div class="background-hero">
+                    <div class="hero-container">
+                        <h1 class="hero">Косметологічна клініка</h1>
+                        <h2 class="hero-title">Beauty <br>Zone</h2>
+                        <button class="button modal-btn-open" type="button">Замовити дзвінок</button>
+                        <h3 class="hero-subtitle">Запишись та отримай безкоштовну
+                            консультацію нашого косметолога</h3>
+                    </div>
                 </div>
             </div>
         </section>
@@ -76,17 +78,17 @@
                         </h4>
                     </div>
                     <div class="about-us-images">
-                    <img class="about-us-image image-before" src="./Images/before.png" alt="Фото до">
-                    <img class="about-us-image image-after" src="./Images/after.png" alt="Фото після">
-                    <svg class="star-icon star-blue" width="40" height="40">
-                        <use href="./Images/icons.svg#star-blue"></use>
-                    </svg>
-                    <svg class="star-icon star-big" width="64" height="64">
-                        <use href="./Images/icons.svg#star-big"></use>
-                    </svg>
-                    <svg class="star-icon star-small" width="16" height="16">
-                        <use href="./Images/icons.svg#star-small"></use>
-                    </svg>
+                        <img class="about-us-image image-before" src="./Images/before.png" alt="Фото до">
+                        <img class="about-us-image image-after" src="./Images/after.png" alt="Фото після">
+                        <svg class="star-icon star-blue" width="40" height="40">
+                            <use href="./Images/icons.svg#star-blue"></use>
+                        </svg>
+                        <svg class="star-icon star-big" width="64" height="64">
+                            <use href="./Images/icons.svg#star-big"></use>
+                        </svg>
+                        <svg class="star-icon star-small" width="16" height="16">
+                            <use href="./Images/icons.svg#star-small"></use>
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -99,7 +101,7 @@
                         <svg class="why-us-icon" width="48" height="48">
                             <use href="./Images/icons.svg#icon-education"></use>
                         </svg>
-                        <p class="why-us-text"> Всі наші косметологи мають вищу медичну 
+                        <p class="why-us-text"> Всі наші косметологи мають вищу медичну
                             освіту та стаж роботи від 5 років
                         </p>
                     </li>
@@ -115,7 +117,7 @@
                         <svg class="why-us-icon" width="48" height="48">
                             <use href="./Images/icons.svg#icon-crown"></use>
                         </svg>
-                        <p class="why-us-text"> Наша мета - підкреслити переваги та 
+                        <p class="why-us-text"> Наша мета - підкреслити переваги та
                             приховати недоліки, а не переробити
                         </p>
                     </li>
@@ -126,33 +128,33 @@
             <div class="container">
                 <h2 class="section-title">Наші <span class="highlight">процедури</span></h2>
                 <div class="procedures-slider">
-                <button class="carusel-button prev" type="button">
-                    <svg class="carusel-arrow" width="16" height="16">
-                        <use href="./Images/icons.svg#icon-arrow"></use>
-                    </svg>
-                </button>
-                <ul class="procedures-list">
-                    <li>
-                        <article class="procedures-card card-masks" >
-                            <h3 class="procedures-title">Маски для обличчя</h3>
-                        </article>
-                    </li>
-                    <li>
-                         <article  class="procedures-card card-injections">
-                            <h3 class="procedures-title">Ін'єкції для обличчя</h3>
-                        </article>
-                    </li>
-                    <li>
-                        <article class="procedures-card card-cleaning">
-                            <h3 class="procedures-title">Очищення обличчя</h3>
-                        </article>
-                    </li>
-                </ul>
-                <button class="carusel-button next" type="button">
-                    <svg class="carusel-arrow" width="16" height="16">
-                        <use href="./Images/icons.svg#icon-arrow"></use>
-                    </svg> 
-                </button>
+                    <button class="carusel-button prev" type="button">
+                        <svg class="carusel-arrow" width="16" height="16">
+                            <use href="./Images/icons.svg#icon-arrow"></use>
+                        </svg>
+                    </button>
+                    <ul class="procedures-list">
+                        <li>
+                            <article class="procedures-card card-masks">
+                                <h3 class="procedures-title">Маски для обличчя</h3>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="procedures-card card-injections">
+                                <h3 class="procedures-title">Ін'єкції для обличчя</h3>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="procedures-card card-cleaning">
+                                <h3 class="procedures-title">Очищення обличчя</h3>
+                            </article>
+                        </li>
+                    </ul>
+                    <button class="carusel-button next" type="button">
+                        <svg class="carusel-arrow" width="16" height="16">
+                            <use href="./Images/icons.svg#icon-arrow"></use>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </section>
@@ -169,48 +171,54 @@
     </main>
     <footer class="footer" id="contacts">
         <div class="container footer-container">
-                <a class="footer-logo" href="./index.html">
-                    <img src="./images/logo.svg" alt="Логотип клініки">
-                </a>
-                <ul class="footer-menu">
-                    <li><a class="address-link" href="#about-us">Про нас</a></li>
-                    <li><a class="address-link" href="#why-us">Чому ми</a></li>
-                    <li><a class="address-link" href="#procedures">Наші процедури</a></li>
-                    <li><a class="address-link" href="#contacts">Контакти</a></li>
-                </ul>
-                <address class="footer-address">
-                    <ul class="footer-address-list">
-                        <li><a class="address-link" href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
-                        <li><a class="address-link" href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a></li>
-                        <li><a class="address-link" href="https://maps.app.goo.gl/2xTD7pdjPXfNwLQn8" target="_blank">
-                                Україна, м. Київ,вул. Січових Стрільців 54</a></li>
-                        <li class="footer-social">
-                            <a href="#">
-                                 <svg class="address-icon" width="42" height="42">
-                                    <use href="./Images/icons.svg#icon-telephone"></use>
-                                 </svg>
-                            </a>
-                            <a href="#">
-                                <svg class="address-icon" width="42" height="42">
-                                    <use href="./Images/icons.svg#icon-facebook"></use>
-                                 </svg>
-                            </a>
-                            <a href="#">
-                                <svg class="address-icon" width="42" height="42">
-                                    <use href="./Images/icons.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        </ul>
-                    </address>
-                    <div class="footer-info">
-                        <a class="copyright-link" href="" target="_blank">
-                            Політика конфіденційності
+            <a class="footer-logo" href="./index.html">
+                <img src="./images/logo.svg" alt="Логотип клініки">
+            </a>
+            <ul class="footer-menu">
+                <li><a class="address-link" href="#about-us">Про нас</a></li>
+                <li><a class="address-link" href="#why-us">Чому ми</a></li>
+                <li><a class="address-link" href="#procedures">Наші процедури</a></li>
+                <li><a class="address-link" href="#contacts">Контакти</a></li>
+            </ul>
+            <address class="footer-address">
+                <ul class="footer-address-list">
+                    <li><a class="address-link" href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
+                    <li><a class="address-link" href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a></li>
+                    <li><a class="address-link" href="https://maps.app.goo.gl/2xTD7pdjPXfNwLQn8" target="_blank">
+                            Україна, м. Київ,вул. Січових Стрільців 54</a></li>
+                    <li class="footer-social">
+                        <a href="#">
+                            <svg class="address-icon" width="42" height="42">
+                                <use href="./Images/icons.svg#icon-telephone"></use>
+                            </svg>
                         </a>
-                        <p class="footer-copyright">© 2022 Дані захищені</p>
-                    </div>
+                        <a href="#">
+                            <svg class="address-icon" width="42" height="42">
+                                <use href="./Images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="address-icon" width="42" height="42">
+                                <use href="./Images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </address>
+            <div class="footer-info">
+                <a class="copyright-link" href="" target="_blank">
+                    Політика конфіденційності
+                </a>
+                <p class="footer-copyright">© 2022 Дані захищені</p>
+            </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden">
+        <div class="modal">
+            <button class="modal-btn-close" type="button"> Close</button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
